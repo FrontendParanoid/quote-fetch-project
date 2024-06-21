@@ -1,0 +1,99 @@
+.attribution { font-size: 11px; text-align: center; position: absolute; top: 0; right: 0 ;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+.mainBody
+{
+  width: 35%;
+  background-color: hsl(217, 19%, 24%);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.quote
+{
+  position: relative;
+}
+
+.mainBody h4
+{
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 30px;
+}
+.advice
+{
+  font-family: 'Outfit';
+  font-weight: 500;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+
+.quote hr
+{
+  margin-bottom: 20px;
+}
+
+.lineSeperator
+{
+  margin-bottom: 20px;
+}
+
+.lineSeperator img
+{
+  width: 100%;
+}
+
+.generateAdvice
+{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+}
+
+.diceBtn
+{
+  background-color: hsl(150, 100%, 66%);
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px)
+{
+  .mainBody
+  {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .mainBody
+  {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 350px)
+{
+  .mainBody
+  {
+    width: 80%;
+  }
+}
+
