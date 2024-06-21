@@ -73,6 +73,30 @@ main
   cursor: pointer;
 }
 
+.diceBtn:hover
+{
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow
+{
+  /* Each percentage represents at 0% when animation just began until 100% when animation ends */
+  0%
+  {
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+  }
+
+  50%
+  {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+  }
+
+  100%
+  {
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+  }
+}
+
 @media only screen and (max-width: 900px)
 {
   .mainBody
